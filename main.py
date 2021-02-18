@@ -26,6 +26,39 @@ def main():
   """This function contains all code for the chatbot."""
   print("Hello!")
 
+n = input("What is your name:")
+print ("Hi" + " " + n)
+if n == "alyssa":
+    print ("My name is also alyssa")
+elif n == "aly":
+    print ("That is my nickname")
+else:
+    print ("My name is Alyssa")
+
+
+print("Here is a positivity quote")
+
+x = random.randint(1,5)
+if x == 1:
+    print("Sharing is Caring")
+elif x == 2:
+    print ("Love yourself")
+elif x == 3:
+    print("You are Enough")
+elif x == 4:
+    print ("You are Worthy")
+elif x == 5:
+    print ("Live Every Day to the Fullest")
+
+  
+m = input("What would you say your current mood is?")
+if m == "happy":
+    print ("That is good to hear")
+elif m == "ok":
+    print ("Are you sure I say im ok all the time when im not")
+else:
+    print ("It's okay everyone has off days")
+ 
 
 
 if __name__ == "__main__":
